@@ -8,6 +8,16 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1 id="verification_heading">Verify Your Account</h1>
+    <h2 id="verification_subtext">we emailed you six digit code please check and enter into the input field</h2>
+    <div class="code-container">
+        <input type="text" class="code" maxlength="1" id = "1" oninput="limitInput(this, 2)" placeholder="0" onkeydown="goback(this, 1)">
+        <input type="text" class="code" maxlength="1" id = "2" oninput="limitInput(this, 3)" placeholder="0" onkeydown="goback(this, 1)">
+        <input type="text" class="code" maxlength="1" id = "3" oninput="limitInput(this, 4)" placeholder="0" onkeydown="goback(this, 2)">
+        <input type="text" class="code" maxlength="1" id = "4" oninput="limitInput(this, 5)" placeholder="0" onkeydown="goback(this, 3)">
+        <input type="text" class="code" maxlength="1" id = "5" oninput="limitInput(this, 6)" placeholder="0" onkeydown="goback(this, 4)">
+        <input type="text" class="code" maxlength="1" id = "6" oninput="limitInput(this)"    placeholder="0" onkeydown="goback(this, 5)">
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
