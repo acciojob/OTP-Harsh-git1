@@ -1,5 +1,5 @@
 //your JS code here. If required.
-function limitInput(inputField, inputid) {
+function focused(inputField, inputid) {
 	// Get the input value
 	// console.log("inside limitInput");
 	// console.log(inputField);

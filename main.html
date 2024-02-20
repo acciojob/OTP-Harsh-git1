@@ -11,12 +11,12 @@
 	<h1 id="verification_heading">Verify Your Account</h1>
     <h2 id="verification_subtext">we emailed you six digit code please check and enter into the input field</h2>
     <div class="code-container">
-        <input type="text" class="code" maxlength="1" id = "code-1" oninput="limitInput(this, 'code-2')" placeholder="0" onkeydown="goback(this, 'code-1')">
-        <input type="text" class="code" maxlength="1" id = "code-2" oninput="limitInput(this, 'code-3')" placeholder="0" onkeydown="goback(this, 'code-1')">
-        <input type="text" class="code" maxlength="1" id = "code-3" oninput="limitInput(this, 'code-4')" placeholder="0" onkeydown="goback(this, 'code-2')">
-        <input type="text" class="code" maxlength="1" id = "code-4" oninput="limitInput(this, 'code-5')" placeholder="0" onkeydown="goback(this, 'code-3')">
-        <input type="text" class="code" maxlength="1" id = "code-5" oninput="limitInput(this, 'code-6')" placeholder="0" onkeydown="goback(this, 'code-4')">
-        <input type="text" class="code" maxlength="1" id = "code-6" oninput="limitInput(this)"           placeholder="0" onkeydown="goback(this, 'code-5')">
+        <input type="text" class="code" maxlength="1" id = "code-1" oninput="focused(this, 'code-2')" placeholder="0" onkeydown="goback(this, 'code-1')">
+        <input type="text" class="code" maxlength="1" id = "code-2" oninput="focused(this, 'code-3')" placeholder="0" onkeydown="goback(this, 'code-1')">
+        <input type="text" class="code" maxlength="1" id = "code-3" oninput="focused(this, 'code-4')" placeholder="0" onkeydown="goback(this, 'code-2')">
+        <input type="text" class="code" maxlength="1" id = "code-4" oninput="focused(this, 'code-5')" placeholder="0" onkeydown="goback(this, 'code-3')">
+        <input type="text" class="code" maxlength="1" id = "code-5" oninput="focused(this, 'code-6')" placeholder="0" onkeydown="goback(this, 'code-4')">
+        <input type="text" class="code" maxlength="1" id = "code-6" oninput="focused(this)"           placeholder="0" onkeydown="goback(this, 'code-5')">
     </div>
     <script type="text/javascript" src="./script.js">
 </script>
