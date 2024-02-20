@@ -9,14 +9,12 @@ function limitInput(inputField, inputid) {
 	if (!(/^\d$/.test(inputValue))) {
 		//console.log("reached here wrong");
 		inputField.value = '';
-		
 	}else if(inputid != null) {
 		//console.log("reached here");
 		var element = document.getElementById(inputid);
 		element.focus();
 	}
 }
-
 
 function goback(inputField, inputid) {
 	if (event.key === 'Backspace' && inputField.value === '') {
